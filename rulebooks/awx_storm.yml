@@ -4,7 +4,7 @@
   sources:
     - ansible.eda.generic:
         shutdown_after: 3600
-        repeat_count: 100
+        repeat_count: 10
         create_index: "index"
         payload:
           - state: "down"
