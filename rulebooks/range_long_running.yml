@@ -3,7 +3,7 @@
   hosts: all
   sources:
     - ansible.eda.range:
-        limit: 2592000 # 30 days
+        limit: 25920000 # 30 days
         delay: 1
   rules:
     - name: Say Hello long running
